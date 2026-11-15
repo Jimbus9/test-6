@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "name": "Test 6",
+  "about": "Test the setup for real bitcoin in the new app",
+  "site": "https://jimbus9.github.io/test-6/",
+  "disclaimer": "Nobody receives anything financial in return, ever. This is not an investment.",
+  "declaration": {
+    "title": "TEST 6",
+    "version": 1,
+    "file": "declaration.txt",
+    "sha256": "4eee4b4c9e9a8eefd1e98820edba3b7d203236f3bd16e376ceb57406b4e25aea"
+  },
+  "network": "mainnet",
+  "unit": "BTC",
+  "lock_lengths_years": [
+    1,
+    3,
+    5
+  ],
+  "minimum_counted_lock_sats": 200000,
+  "cosigner_keys": [
+    "03aa5d86c6c1af7c821cb104b97171a730ac0e85a3581fb1bddd584a6daa774137"
+  ],
+  "cosigner_xpubs": [
+    "xpub6CeTN7YQxPerrzFLxjnJxSh8Mng7nQXu6xni5RYsLY2ZAzSTow9DfoQU1tYU9d32JkttZCH7supJfi6Nct4w8UeYsBP2ubTTpxBSQn219y1"
+  ],
+  "gathering_window_max_days": 28,
+  "settlement_window_max_days": 14,
+  "destination_wait_days": 7,
+  "attestor_keys": [],
+  "attestor_threshold": 1,
+  "max_commitment_fee": 0.01,
+  "register": {
+    "registrations": "registrations.json",
+    "destinations": "destinations.json"
+  },
+  "chain_api": "https://mempool.space/api",
+  "relays": [
+    "wss://relay.damus.io",
+    "wss://nos.lol",
+    "wss://relay.primal.net",
+    "wss://nostr.mom",
+    "wss://offchain.pub"
+  ],
+  "spare_relays": [
+    "wss://relay.snort.social",
+    "wss://nostr-pub.wellorder.net",
+    "wss://relay.nostr.bg"
+  ]
+}
