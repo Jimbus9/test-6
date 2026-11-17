@@ -23,7 +23,7 @@
   },
   "test-6.json": {
     "wss://relay.damus.io": {
-      "lastAnswered": "2026-11-16",
+      "lastAnswered": "2026-11-17",
       "since": "2026-11-15"
     },
     "wss://nos.lol": {
